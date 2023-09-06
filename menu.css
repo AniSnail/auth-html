@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(39, 1, 1, 0.8);
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+}
+.searchbar {
+   margin: 20px;
+   width: 170px;
+   height: 30px;
+   border-radius: 15px;
+}
+.top-button {
+    margin: 15px;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    border-radius: 30px;
+}
