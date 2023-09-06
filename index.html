@@ -1,23 +1,22 @@
 <html>
     <head>
         <title>CSS level 2</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <form>
-            <div>
+    <body class="base">
+        <form class="auth-block">
                 <div>
-                  Логин
-                  <input name="login" placeholder="Ваша почта"/>
+                    <div>
+                        <input class="field" name="login" placeholder="Ваша почта"/>
+                    </div>
+                    <div>
+                        <input class="field" type="password" name="password" placeholder="Пароль"/> 
+                    </div>
                 </div>
                 <div>
-                  Пароль
-                  <input type="password" name="password" placeholder="Пароль"/> 
+                    <button class="button">Войти</button>
+                    <button class="button">Присоедениться</button>
                 </div>
-            </div>
-            <div>
-                <button>Войти</button>
-                <button>Присоедениться</button>
-            </div>
         </form>
     </body>
 </html>
